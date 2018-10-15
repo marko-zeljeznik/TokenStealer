@@ -35,7 +35,7 @@ int main (int argc, char *argv[]) {
     }
 
     INT64 toi = atoll (argv[1]), maxuint = 4294967295LL;
-    DWORD pid, usrsess;
+    DWORD pid;
 
     if (toi > maxuint || toi < 0) {
         printf ("PID is either too big, or smaller than 0!\n");
