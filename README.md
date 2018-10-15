@@ -1,7 +1,7 @@
 # TokenStealer
 This program will steal another program's token. 
 
-Usage: TokenStealer.exe <pid>
+Usage: TokenStealer.exe PID
 
 pid = id of the process that the program will steal token from.
 
